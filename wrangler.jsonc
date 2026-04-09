@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-r2-image-bed",
+  "compatibility_date": "2026-04-09",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "r2-image-bed"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
