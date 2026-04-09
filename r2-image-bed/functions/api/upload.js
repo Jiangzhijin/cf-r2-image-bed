@@ -3,6 +3,7 @@ function generateRandomName() {
   return Date.now() + '-' + Math.random().toString(36).substring(2, 9);
 }
 
+// 注意这里必须是 onRequestPost ！！！
 export async function onRequestPost(context) {
   const { env, request } = context;
   
